@@ -1669,8 +1669,8 @@ def adicionar_valor_multitek_cb_enxofre(n_clicks, novo_valor, selected_month):
     # Verifica se o botão foi clicado e o valor é válido
     if n_clicks and novo_valor is not None and selected_month is not None:
 
-        m_inicial_s_cb = 21.3130
-        m_final_s_cb = 41.3403
+        m_inicial_s_cb = 20.4268
+        m_final_s_cb = 40.4319
         d_tolueno = 0.8650
         fd_s_cb = m_final_s_cb / m_inicial_s_cb
         densidade_s_cb = 0.8463
@@ -1731,8 +1731,8 @@ def adicionar_valor_multitek_cb_nitrogenio(n_clicks, novo_valor, selected_month)
     # Verifica se o botão foi clicado e o valor é válido
     if n_clicks and novo_valor is not None and selected_month is not None:
 
-        m_inicial_n_cb = 21.3130
-        m_final_n_cb = 41.3403
+        m_inicial_n_cb = 20.4268
+        m_final_n_cb = 40.4319
         d_tolueno = 0.8650
         fd_n_cb = m_final_n_cb / m_inicial_n_cb
         densidade_n_cb = 0.8463
@@ -1796,8 +1796,8 @@ def adicionar_valor_multitek_cm_enxofre(n_clicks, novo_valor, selected_month):
     # Verifica se o botão foi clicado e o valor é válido
     if n_clicks and novo_valor is not None and selected_month is not None:
         
-        mi_s_cm = 5.3610
-        mf_s_cm = 53.3085
+        mi_s_cm = 5.1286
+        mf_s_cm = 50.1362
         d_tolueno = 0.8650
         fd_s_cm = mf_s_cm / mi_s_cm
         densidade_s_cm = 0.8492
@@ -1858,8 +1858,8 @@ def adicionar_valor_multitek_cm_nitrogenio(n_clicks, novo_valor, selected_month)
     
     if n_clicks and novo_valor is not None and selected_month is not None:
         
-        mi_n_cm = 5.3610
-        mf_n_cm = 53.3085
+        mi_n_cm = 5.1286
+        mf_n_cm = 50.1362
         d_tolueno = 0.8650
         fd_n_cm = mf_n_cm / mi_n_cm
         densidade_n_cm = 0.8492
@@ -1926,8 +1926,8 @@ def adicionar_valor_multitek_ca_enxofre(n_clicks, novo_valor, selected_month):
     
     if n_clicks and novo_valor is not None and selected_month is not None:
 
-        mi_s_ca = 22.0366
-        mf_s_ca = 42.1466
+        mi_s_ca = 20.0118
+        mf_s_ca = 40.0263
         d_tolueno = 0.8650
         fd_s_ca = mf_s_ca / mi_s_ca
         densidade_s_ca = 0.8492
@@ -1987,8 +1987,8 @@ def adicionar_valor_multitek_ca_nitrogenio(n_clicks, novo_valor, selected_month)
     
     if n_clicks and novo_valor is not None and selected_month is not None:
 
-        mi_n_ca = 22.0366
-        mf_n_ca = 42.1466
+        mi_n_ca = 20.0118
+        mf_n_ca = 40.0263
         d_tolueno = 0.8650
         fd_n_ca = mf_n_ca / mi_n_ca
         densidade_n_ca = 0.8492
